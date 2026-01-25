@@ -12,6 +12,8 @@ class Solution:
             maxLength = max(maxLength, right - left + 1)
         
         return maxLength
+        
+        
 # Example usage:
 solution = Solution()
 print(solution.lengthOfLongestSubstring("abcabcbb"))  # Output: 3
