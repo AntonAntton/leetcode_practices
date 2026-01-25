@@ -31,6 +31,7 @@ class Solution:
             ans = float(m1) + float(m2)
             return ans / 2.0
         
+        
 # Example usage:
 solution = Solution()
 print(solution.findMedianSortedArrays([1, 3], [2]))        # Output: 2.0
