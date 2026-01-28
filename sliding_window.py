@@ -10,18 +10,8 @@ class Solution:
             maxLength = max(maxLength, right - left + 1)
         
         return maxLength
-<<<<<<< HEAD
         
         
-# Example usage:
-=======
-
-    def new_method(self, s, charIndex, left, right):
-        if charIndex[ord(s[right])] >= left:
-            left = charIndex[ord(s[right])] + 1
-        charIndex[ord(s[right])] = right
-        return left
-# Example  usage:
->>>>>>> b674656 (Add example usage commen)
 solution = Solution()
 print(solution.lengthOfLongestSubstring("abcabcbb"))  # Output: 3
+print(solution.lengthOfLongestSubstring("bbbbb"))     # Output: 1
