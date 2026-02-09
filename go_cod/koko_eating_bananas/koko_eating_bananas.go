@@ -36,6 +36,7 @@ func canEatAll(piles []int, h int, k int) bool {
 
 func main() {
 	piles := []int{3, 6, 7, 11}
-	h := 8
-	println(minEatingSpeed(piles, h))
+	h := 4
+	result := minEatingSpeed(piles, h)
+	println(result) // Output: 4
 }
