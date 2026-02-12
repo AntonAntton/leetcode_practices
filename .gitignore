@@ -1,19 +1,20 @@
-# macOS
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.test
+*.out
+
+# Vendor (if you use it)
+vendor/
+
+# OS / editor files
 .DS_Store
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.env
-.venv
-venv/
-
-# Rust
-target/
-
-# VS Code
 .vscode/
+.idea/
 
-# General
-*.log
+# Optional: local env files
+.env
