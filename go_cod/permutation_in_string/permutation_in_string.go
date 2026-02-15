@@ -39,7 +39,7 @@ func match(a, b []int) bool {
 }
 
 func main() {
-	s1 := "oo"
+	s1 := "ooo"
 	s2 := "eidbaooo"
 	result := checkInclusion(s1, s2)
 	fmt.Println(result) // Output: true
