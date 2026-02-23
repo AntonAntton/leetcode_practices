@@ -30,8 +30,8 @@ func topKFrequent(nums []int, k int) []int {
 }
 
 func main() {
-	nums := []int{1, 1, 1, 2, 2, 3}
+	nums := []int{1, 2, 2, 3, 3, 3}
 	k := 2
 	result := topKFrequent(nums, k)
-	fmt.Println(result) // Output: [1, 2]
+	fmt.Println(result) // Output: [3, 2]
 }
