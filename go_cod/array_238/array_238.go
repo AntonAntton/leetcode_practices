@@ -26,7 +26,7 @@ func productExceptSelf(nums []int) []int {
 }
 
 func main() {
-	nums := []int{1, 2, 3, 4}
+	nums := []int{5, 5, 5, 5}
 	result := productExceptSelf(nums)
 	fmt.Println(result)
 }
